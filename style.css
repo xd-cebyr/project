@@ -1,0 +1,234 @@
+/*Ненужное*/
+
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(fonts/AnonymousPro-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url(fonts/AnonymousPro-Regular.ttf);
+}
+/*Ненужное*/
+
+*{
+  box-sizing: border-box;
+}
+h1 {
+    font-family: "Anonymous Pro", sans-serif;
+    font-size: 56px;
+}
+
+h2 {
+  font-family: "Anonymous Pro", sans-serif;
+	font-size: 48px;
+}
+
+
+
+
+h3 {
+  font-family: "Anonymous Pro", sans-serif;
+	font-size: 26px;
+}
+
+p {
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 14px;
+}
+
+img {
+	width: 370px;
+}
+
+.container{
+  width:100%;
+  max-width: 1300px;
+  margin:0 auto;
+  padding: 0 15px;
+}
+
+
+/*Карточки*/
+.main{
+  background-color: #F1F1F1;
+}
+.boot_image {
+	display: inline-block;
+	margin: 15px;
+  border-radius: 12px;
+  background-color: white;
+  overflow: hidden;
+  text-decoration: none;
+  color: black;
+}
+
+
+  /*Карточки*/
+  
+
+body{
+  margin:0;
+  overflow-x: hidden;
+}
+/*Текст*/
+.container__title{
+  font-size: 26px;
+  size: 26px;
+  font-weight: 700;
+  line-height: 26px;
+  padding-left: 20px;
+  
+}
+.container__text{
+  font-size: 20px;
+  size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  padding-left: 20px;
+  
+}
+.title{
+  margin-top: 0;
+}
+/*Текст*/
+
+/*Хедер*/
+.header{
+  background-color: white;
+  height: 100px;
+  width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.header_container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+
+.logotype{
+  padding-top: 41px;
+  width: 220px;
+}
+.markers{
+  list-style: none;
+  display: inline-flex;
+  gap: 24px;
+  padding-top: 42px;
+  font-family: Anonymous Pro;
+  padding-right: 125px;
+
+}
+.links{
+  text-decoration: none;
+  font-weight: 600;
+  color: black;
+}
+/*Хедер*/
+
+/*Футер*/
+.footer{
+  background-color: black;
+  height: 150px;
+}
+.footer_content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer_links{
+  color: white;
+  text-decoration: none;
+  font-family: Anonymous Pro;
+}
+.footer_markers{
+  list-style: none;
+  display: inline-flex;
+  gap: 24px;
+  padding-top: 20px;
+  font-family: Anonymous Pro;
+  padding-right: 125px;
+}
+.footer_logo{
+  padding-top: 30px;
+  width: 310px;
+}
+.footer_p{
+  color:#A1A6B4;
+  margin:0;
+  text-align: center;
+  padding-top: 41px;
+  font-weight: 600;
+  font-size: 16px;
+  border-top:1px rgba(230, 232, 236, 0.4) solid;
+}
+/*Футер*/
+
+/*Page 1*/
+.content{
+width:100%;
+height:fit-content;
+padding: 50px;
+background-color: white;
+
+
+}
+.content_img{
+  width:100%;
+  max-width:1000px; 
+  height:100%;
+  max-height: 500px;
+  object-fit: cover;
+}
+
+
+
+.content_subtitle{
+  font-family: AnonymousPro-Regular ;
+  
+}
+.content_title{
+  font-family: AnonymousPro-Regular ;
+  
+}
+
+.flex{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  
+
+}
+.flex_column{
+  width:50%;
+}
+.flex_column_p{
+  
+}
+.flex_column_p2{
+  font-family:AnonymousPro-Regular, sans-serif ;
+  font-weight: 21px;
+  font-size: 21px;
+  border-bottom:1px black solid;
+  padding-bottom: 14px;
+}
+.flex_column:nth-child(2){
+padding-right:180px;
+}
+.flex_column:nth-child(1){
+
+}
+.flex_row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom:1px black solid;
+  padding-bottom: 14px;
+
+}
