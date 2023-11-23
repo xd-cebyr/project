@@ -66,7 +66,9 @@ img {
   padding-left: 12px;
   width: 380px;
 }
-
+.boot_image_adaptive{
+  padding-bottom: 26px;
+}
 .boot_image {
 	display: inline-block;
 	margin: 14px;
@@ -354,7 +356,7 @@ overflow-y: hidden;
 
 
 
-@media  screen and (max-width: 375px) {
+@media  screen and (max-width: 376px) {
   /*Карточки на главной странице */
   .container{
     overflow-y: hidden;
@@ -364,8 +366,21 @@ overflow-y: hidden;
     max-width:300px ;
 
   }
+  .boot_image_adaptive{
+    margin-bottom: 0;
+  }
   .boots_images{
-    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .main{
+    padding: 0px 16px;
+ 
+  }
+  .container{
+    padding: 0px;
   }
   .container__image{
     width:100%;
@@ -373,6 +388,8 @@ overflow-y: hidden;
   /*Карточки на главной странице */
   .header{
     height:auto;
+    padding: 0px 16px;
+    margin: 0;
   }
   .header_container{
     display: flex;
@@ -381,11 +398,17 @@ overflow-y: hidden;
     align-items: center;
   }
   .logotype{
-    width: 200px;
-    padding-top: 17px;
+    width: 215px;
+    
+    padding-top: 24px;
   }
   .footer{
     height: auto;
+    padding: 0px 16px;
+  }
+  .footer_p{
+    padding-top: 35px;
+    padding-bottom: 30px;
   }
   .footer_logo{
     width: 280px;
@@ -410,6 +433,8 @@ overflow-y: hidden;
     padding-left: 0;
     padding-right: 0;
     font-family: Anonymous Pro;
+    padding-top: 10px;
+    padding-bottom: 0px;
   }
   .content{
     width:100%;
@@ -421,12 +446,17 @@ overflow-y: hidden;
     
     }
   .content_img2{
-    width: 250px;
+    width: 260px;
     
     margin-left: 0;
 
     
     
+  }
+  .content{
+    margin-top: 32px;
+    border-radius: 24px;
+    padding: 24;
   }
   .content_img{
     
@@ -452,17 +482,33 @@ overflow-y: hidden;
   font-size: 32px;
   
 }
+.flex_row{
+  padding-bottom: 5px;
+  
+}
 .content_subtitle{
   
   font-size: 20px;
 }
 .flex_column_p{
   font-size: 16px;
+  margin: 0;
 }
 .flex_column_p2{
-  font-size:24px; 
+  font-size:24px;
+  margin-bottom: 0; 
+  margin-top: 32px;
 }
 .flex_row  p{
   font-size: 16px;
+}
+.subtitle{
+  font-size: 32px;
+  padding-left: 20px;
+  
+  
+}
+.container__title{
+  font-size: 26px;
 }
 }
